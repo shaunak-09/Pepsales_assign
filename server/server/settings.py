@@ -27,7 +27,10 @@ SECRET_KEY = 'django-insecure-8hz#(ct(rgd+41zzbu^5jq^^(%xk%oqxd-#tpy%wn=y0xxs*^%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "https://pepsales-assign.onrender.com",
+    "http://localhost:8000",
+]
 
 
 # Application definition
